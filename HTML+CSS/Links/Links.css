@@ -1,0 +1,43 @@
+a{
+
+		padding: 5px;	
+		text-decoration: none;
+
+		}
+
+a{
+
+		color: orange;	
+
+		}
+
+		/*Não visitados*/
+
+a:link{
+
+		color: #b9c941;
+
+		}
+		/*visitados*/
+a:visited{
+
+		color: #c0c0c0;	
+
+		}
+
+		/*Links hover,passa o cursor sobre o link*/
+a:hover{
+
+		color: #6d790f;	
+		background: black;
+
+		}
+
+		/*Links ativos quando segura o clique em cima*/
+a:active{
+		color: #e4f371;	
+
+		}
+
+
+
