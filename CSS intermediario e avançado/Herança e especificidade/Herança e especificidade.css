@@ -1,0 +1,33 @@
+/*Herança*//*
+*{
+	border: 1px solid blue;
+}
+
+
+body{
+	color:red;
+	font-size: 20px;
+}*/
+
+/*Especificidade*
+#pagina p{
+	color: blue !important;
+}
+#pagina p{
+	color: red;
+}
+/*Se um seletor for mais especifico que outro a regra mais especifica sera
+aplicada (terá precedencia sobre regras mais gerais)
+*/
+*{
+	color: red;
+}
+h2{/*3*/
+	color:blue;
+}
+h2.verde{/*2*/
+	color:green;
+}
+h2#verde{/*1*/
+	color:green;
+}

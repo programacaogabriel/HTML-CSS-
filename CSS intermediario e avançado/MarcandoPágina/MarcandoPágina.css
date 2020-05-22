@@ -1,0 +1,49 @@
+/*****************
+Barra de Navegação Vertical
+*
+
+ul{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+
+}
+
+li{
+	padding: 10px 20px;
+	background: url(imagens/seta.png) no-repeat left center;
+
+}
+*/
+ul{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+
+}
+
+ul a {
+	
+	width: 200px;
+	height: 40px;	
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: /*#f4f4f4 caso não apareça a imagem*/ url(imagens/menu.png) left bottom;
+
+}
+li a:hover{
+	background-position: right bottom;
+	color:#fff;
+	/*caso não apareça a cor - background-color:black*/
+	}
+
+#home .home a{
+	background-position: right bottom;
+	color:#fff;
+	/*caso não apareça a cor - background-color:black*/
+	}
+
+}
